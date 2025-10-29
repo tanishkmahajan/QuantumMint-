@@ -16,12 +16,8 @@
         return ownerTokens[_owner];
     }
 
-    // ? Function 4: Get token details
-    function getToken(uint256 _id) public view returns (Token memory) {
-        require(_id > 0 && _id <= tokenCount, "Invalid token ID");
-        return tokens[_id];
-    }
-}
+    update
+// 
 // 
 update
 // 
